@@ -80,7 +80,7 @@ html,body {
 /* hamburger menu */
 
 .menu{
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: -50px;
 }
@@ -217,7 +217,6 @@ html,body {
 
 #whoami #who-discription{
   font-size: 3em;
-  min-width: 300px;
 }
 
 
