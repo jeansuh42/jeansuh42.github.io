@@ -304,7 +304,7 @@ html,body {
 
 .prod-list-bar .prod-list-box > ul > li > a > .img-box img{
   margin-top: 1rem;
-  width: 400px;
+  width: 380px;
   height: 300px;
   object-fit: cover;
   margin-left: auto;
