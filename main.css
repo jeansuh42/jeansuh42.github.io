@@ -17,24 +17,33 @@ html,body {
   overflow-x : hidden;
   background-color:black;
 }
+
 .con {
   margin: 0 auto;
 }
+
 .row::after {
   content:"";
   display: block;
   clear: both;
 }
+
 .cell {
   float: left;
 }
+
 .cell a{
   font-family: 'Raleway', sans-serif;
   color: white;
 }
 
+.op-3 {
+  opacity: 0.3;
+}
+
 
 /*커스텀*/
+
 .con {
   max-width: 1200px;
 }
@@ -403,12 +412,9 @@ html,body {
 
 
 #contact{
-  
    padding: 40px 80px;
   
 }
-
-
 
 
 #contact .links > ul > li {
@@ -417,8 +423,6 @@ html,body {
   font-size: 1.2em;
    float:left;
 }
-
-
 
 
 
