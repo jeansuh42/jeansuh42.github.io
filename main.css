@@ -318,6 +318,10 @@ html,body {
   #additional{
       padding: 3em !important;
   }
+  
+  #contact {
+    padding: 3em !important;
+  }
 }
 
 
