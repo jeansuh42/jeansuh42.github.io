@@ -286,7 +286,6 @@ html,body {
 }
 .prod-list-bar .prod-list-box > ul {
   margin: 0 -10px;
-  min-width:600px;
 }
 
 /* responsive-portfolio */
@@ -301,9 +300,29 @@ html,body {
   }
 }
 
+@media (max-width:800px) {
+
+  #whoami {
+    padding: 3em;
+  }
+
+  #portfolio{
+   margin-top: 8em;
+   padding: 3em;
+  }
+
+  #stacks{
+    padding: 3em;
+  }
+
+  #additional{
+      padding: 3em !important;
+  }
+}
+
 
 .prod-list-bar .prod-list-box > ul > li > a > .img-box {
-  width: 400px;
+  width: 90%;
   height: 330px;
   object-fit: cover;
   margin-left: auto;
@@ -313,7 +332,7 @@ html,body {
 
 .prod-list-bar .prod-list-box > ul > li > a > .img-box img{
   margin-top: 1rem;
-  width: 380px;
+  width: 100%;
   height: 300px;
   object-fit: cover;
   margin-left: auto;
