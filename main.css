@@ -1,9 +1,9 @@
 /*normalize*/
-body,ul,li {
+body, ul, li {
   margin: 0;
   padding: 0;
   list-style: none;
-  color:white;
+  color: white;
   position: relative;
 }
 
@@ -12,10 +12,10 @@ a {
   text-decoration: none;
 }
 
-/*defalut*/
-html,body {
-  overflow-x : hidden;
-  background-color:black;
+/*default*/
+html, body {
+  overflow-x: hidden;
+  background-color: black;
 }
 
 .con {
@@ -70,7 +70,7 @@ html,body {
   position: relative;
 }
 .top-menu-bar .top-menu-box-1 ul > li:hover > a {
-  color: red;
+  color: rgb(132, 250, 176);
 }
 
 /*사이드 메뉴 바*/
@@ -192,11 +192,23 @@ html,body {
 .text{
   
   font-family: 'Noto Sans KR', sans-serif;
-  font-size:1.2em;
-  font-weight:100;
+  font-size: 1.5em;
+  font-weight: 100;
   
 }
 
+
+.text.small{
+    font-size: 1em;
+}
+
+.mgt-10 {
+    margin-top: 10em;
+}
+
+.pdt-1 {
+    padding-top: 1em;
+}
 .title{
   
   font-family: 'Raleway', sans-serif;
@@ -204,7 +216,6 @@ html,body {
   font-size: 2.5em;
   margin: -3px;
 
-  
 }
 
 
@@ -226,6 +237,7 @@ html,body {
 
 #whoami #who-discription{
   font-size: 3em;
+  overflow: scroll;
 }
 
 
@@ -278,14 +290,16 @@ html,body {
 /* portfolio list size */
 
 .prod-list-bar .prod-list-box > ul > li {
-  width:calc(100%/ 2);
+  width:calc(100%/ 3);
   box-sizing: border-box;
   padding: 0 10px;
   border: solid 1px #ccc;
   border-radius:30px;
+  margin-right: 2em;
 }
+
 .prod-list-bar .prod-list-box > ul {
-  margin: 0 -10px;
+  /* margin: 0 -10px; */
 }
 
 /* responsive-portfolio */
@@ -415,7 +429,7 @@ html,body {
 #additional .addi-title{
   
   font-size: 1.3em;
-  font-weight:bold;
+  font-weight: bold;
   background: linear-gradient(180deg,rgba(255,255,255,0) 80%, #b0c4de 20%);
   
 }
@@ -441,10 +455,9 @@ html,body {
 
 
 #contact .links > ul > li {
-  
   padding: 10px;
   font-size: 1.2em;
-   float:left;
+   float: left;
 }
 
 
